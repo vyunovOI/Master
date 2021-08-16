@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="for exchange of some content" />
+	<meta name="description" content="Contact page" />
+    <title>Notebook</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="favicon.ico" rel=icon type="image/x-icon">
+	<script src="https://www.google.com/recaptcha/api.js?render=6LfWbNwaAAAAAE5l8lw4V2i-KLmq6BMAXsprhvZo"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LfWbNwaAAAAAE5l8lw4V2i-KLmq6BMAXsprhvZo', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<div class="grid">
+	<Site_title>Записник</Site_title>
+	<Menu_1><a href="index.php.html">Головна</a></Menu_1> 
+	<Menu_2><a href="video.php.html">Відео</a></Menu_2> 
+	<Menu_3><a href="team.php.html">Відділ</a></Menu_3> 
+	<Menu_4><a href="journals.php.html">Журнали</a></Menu_4> 
+	<Menu_5><a href="contact.php.html">Контакт</a></Menu_5> ﻿
+<Page_title class="contact"><h1>Зворотній зв'язок</h1></Page_title>
+  <Top_Left>
+  <h3>Поштова адреса</h3>
+    ІЗНХ НАНУ, В'юнов Олег,<br />
+    просп. Палладіна 32/34,<br />
+    м. Київ, Україна<br />
+	03142<br />
+    Tel: +38 097 389 6442<br />
+    Email: <a href="mailto:vyunov@ukr.net">vyunov@ukr.net</a><br />
+	Електронна візитна картка <a href="Vyunov_O.vcf">vcf</a>
+		
+  </Top_Left> 
+ 
+<Top_Right>
+	<br />Є питання, ідеї або рекомендації щодо поліпшення роботи сайту? Напишіть мені повідомлення.<br />
+	<br />Ваша думка є важливою, оскільки надає можливість зробити сайт краще!
+	<p align=center>
+	<a href="https://fex.net/" target="_blank"><img class="cloud" src="images/cloud.png" alt="Хмара" /></a> 
+	<a href="upload/index.html" target="_blank"><img class="cloud" src="images/cloud.png" alt="Хмара" /></a></p>
+	
+</Top_Right> 
+
+<Bottom_Left>
+
+	
+	<h3>Будь-ласка заповніть форму</h3>
+                
+    <div id="contact_form">
+        <form method="post" name="contact" action="contact.php.html">
+        <label for="name">Ім'я:</label> <input type="text" id="name" name="name" class="input_field" required />
+        <div class="cleaner h10"></div>
+                    
+        <label for="phone">Телефон:</label> <input type="text" id="phone" name="phone" class="input_field" required />
+        <div class="cleaner h10"></div>
+		
+		<label for="email">Е-пошта:</label> <input type="email" id="email" name="email" class="input_field" required />
+        <div class="cleaner h10"></div>
+                   
+        <label for="message">Повідомлення:</label> <textarea id="message" name="message"></textarea>
+        <div class="cleaner h10"></div>
+                    
+        <input type="submit" class="submit_btn" name="submit" id="submit" value="Послати" />
+        <input type="reset" class="submit_btn" name="Reset" id="reset" value="Очистити" />
+		<input type="hidden" name="TODO" value="add" />
+		<input type="hidden" name="recaptcha_response" id="recaptchaResponse" />
+                
+        </form>
+                
+    </div>       
+    
+</Bottom_Left> 
+ 
+ <Bottom_Right>
+	<h3>Місцезнаходження</h3>
+    <div class="image_wrapper"><a href="https://www.google.com/maps/@50.4658429,30.3563194,18z" target="_blank"><img src="images/map_thumb.png" alt="Карта" /></a></div> 
+ </Bottom_Right> 
+ 
+<Page_footer><a href="index.php.html" class="go">Головна</a></Page_footer>  <Site_footer>Copyright © 2020 <a href="http://www.nas.gov.ua/UA/Org/Pages/default.aspx?OrgID=0000266">ІЗНХ НАНУ</a> <nobr>| Створив <a href="http://www.nas.gov.ua/UA/PersonalSite/Pages/default.aspx?PersonID=0000001621"target="_parent">Олег В'юнов</a></nobr></Site_footer> 
+  
+    </div>
+  </body>
+</html>

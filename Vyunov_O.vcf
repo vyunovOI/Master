@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:V'yunov;Oleg;Ivanovich;Dr;
+FN;CHARSET=utf-8:Dr V'yunov Oleg
+NICKNAME: Vyunov
+PHOTO;VALUE=uri:http://files.nas.gov.ua/photo/PersonalSite/GZ/180322180938954-5161.jpg
+URL:https://orcid.org/0000-0001-7420-2287
+ORG:IGIC NASU;Affiliation: IGIC NASU
+LOGO;VALUE=uri:http://files.nas.gov.ua/logo/Orgs/AcademyOrgs/ionc.jpg
+TEL;WORK;VOICE:+38 097 389 64 42 (IGIC)
+ADR;WORK;;;32/34 Academician Palladina ave.;Kyiv;Ukraine;03142
+LABEL;WORK;32/34 Academician Palladina ave. Kyiv Ukraine 03142
+GEO:50.466214,30.357329
+TITLE:Senior Researcher
+EMAIL;PREF;INTERNET:vyunov@ionc.kiev.ua
+END:VCARD
